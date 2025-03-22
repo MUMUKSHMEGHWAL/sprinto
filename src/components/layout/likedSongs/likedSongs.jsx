@@ -6,7 +6,7 @@ import Nav from "../../UI/nav";
 
 const LikedSongs = () => {
   return (
-    <div className="bg-color min-h-screen text-white">
+    <div className="bg-color pb-16 min-h-screen text-white">
       <Nav/>
       <h1 className="text-2xl m-4 main-text-color">Liked Songs</h1>
       <SongList />
